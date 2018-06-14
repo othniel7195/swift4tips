@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		D5425E6C20D21FCF00323086 /* 基本运算符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基本运算符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D5425E6D20D21FD500323086 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D562517220D12C4D009DEE4E /* 基础部分.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基础部分.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517320D12C79009DEE4E /* remark.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = remark.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -15,6 +17,8 @@
 		D562516B20D1287D009DEE4E = {
 			isa = PBXGroup;
 			children = (
+				D5425E6D20D21FD500323086 /* README.md */,
+				D5425E6C20D21FCF00323086 /* 基本运算符.playground */,
 				D562517320D12C79009DEE4E /* remark.rtf */,
 				D562517220D12C4D009DEE4E /* 基础部分.playground */,
 			);

@@ -79,3 +79,27 @@ do {
 } catch NewError.OneError {
     print("do Error is one error")
 }
+
+//断言
+let age = 10
+assert(age < 11, "age 太大了")//断言的条件为false 才会执行
+//assertionFailure("必需翻车")
+
+//强制执行先决条件
+precondition(age < 11, "age 太大了吗") //条件false 才会执行
+//precondition在release版本中依然奏效而Assert只在开发版本中奏效
+/*
+                        debug   release   release
+ function                -Onone  -O       -Ounchecked
+ assert()                YES     NO        NO
+ assertionFailure()      YES     NO        NO**
+ precondition()          YES     YES       NO
+ preconditionFailure()   YES     YES       YES**
+ fatalError()*           YES     YES       YES
+ 还有来自Swift Evolution的有趣讨论
+ 
+ - 断言：检查你自己的代码内部错误
+ 
+ - 先决条件：检查你的客户是否给了你有效的论点。
+ */
+
