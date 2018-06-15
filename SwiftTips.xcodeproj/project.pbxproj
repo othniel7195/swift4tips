@@ -12,12 +12,14 @@
 		D5425E6D20D21FD500323086 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D562517220D12C4D009DEE4E /* 基础部分.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基础部分.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517320D12C79009DEE4E /* remark.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = remark.rtf; sourceTree = "<group>"; };
+		D5ABBBB520D3A5B7003DEDBE /* 集合类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		D562516B20D1287D009DEE4E = {
 			isa = PBXGroup;
 			children = (
+				D5ABBBB520D3A5B7003DEDBE /* 集合类型.playground */,
 				D5425E6D20D21FD500323086 /* README.md */,
 				D562517320D12C79009DEE4E /* remark.rtf */,
 				B9C2046F20D2D90500C820C3 /* 字符串和字符.playground */,
