@@ -35,3 +35,24 @@ for item in someInt4 {
 for (index, value) in someInt4.enumerated(){
     print("index:\(index) and value:\(value)")
 }
+
+//基本集合操作
+let oddDigits: Set = [1, 3, 5, 7, 9]
+let evenDigits: Set = [0, 2, 4, 6, 8]
+let singleDigitPrimeNumbers: Set = [2, 3, 5, 7]
+//使用intersection(_:)方法根据两个集合中都包含的值创建的一个新的集合
+oddDigits.intersection(singleDigitPrimeNumbers)
+//使用symmetricDifference(_:)方法根据在一个集合中但不在两个集合中的值创建一个新的集合。
+oddDigits.symmetricDifference(singleDigitPrimeNumbers)
+//使用union(_:)方法根据两个集合的值创建一个新的集合。
+oddDigits.union(singleDigitPrimeNumbers)
+//使用subtracting(_:)方法根据不在该集合中的值创建一个新的集合。
+oddDigits.subtracting(singleDigitPrimeNumbers)
+
+//字典
+var namesOfIntegers = [Int: String]()
+namesOfIntegers[16] = "我"
+namesOfIntegers
+namesOfIntegers = [:]
+
+

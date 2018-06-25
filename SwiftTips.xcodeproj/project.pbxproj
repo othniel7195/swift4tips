@@ -13,12 +13,16 @@
 		D562517220D12C4D009DEE4E /* 基础部分.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基础部分.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517320D12C79009DEE4E /* remark.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = remark.rtf; sourceTree = "<group>"; };
 		D5ABBBB520D3A5B7003DEDBE /* 集合类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D5ABBBD720E0BA94003DEDBE /* 控制流.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "控制流.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D5E7BA1C20E0D99D00E041AA /* 函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "函数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		D562516B20D1287D009DEE4E = {
 			isa = PBXGroup;
 			children = (
+				D5E7BA1C20E0D99D00E041AA /* 函数.playground */,
+				D5ABBBD720E0BA94003DEDBE /* 控制流.playground */,
 				D5ABBBB520D3A5B7003DEDBE /* 集合类型.playground */,
 				D5425E6D20D21FD500323086 /* README.md */,
 				D562517320D12C79009DEE4E /* remark.rtf */,
