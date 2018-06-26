@@ -98,3 +98,33 @@ func t3(_ myFunction2: (Int, Int) -> Int, _ a: Int, _ b: Int) -> Int {
 
 print("测试1:\(t3(t1,1,15))")
 print("测试2:\(t3(t2,4,5))")
+
+//函数类型作为返回类型
+func stepForward(_ input: Int) -> Int {
+    return input + 1
+}
+func stepBackward(_ input: Int) -> Int {
+    return input - 1
+}
+func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+    return backward ? stepBackward : stepForward
+}
+var currentValue = 3
+let moveNearerToZero = chooseStepFunction(backward: true)
+moveNearerToZero(currentValue)
+
+//嵌套函数
+func chooseStepFunction2(backward: Bool) -> (Int) -> Int {
+    func stepForward2(_ input: Int) -> Int {
+        return input + 1
+    }
+    
+    func stepBackward2(_ input: Int) -> Int {
+        return input - 1
+    }
+    
+    return backward ? stepBackward2 : stepForward2
+}
+
+let moveNearerToZero2 = chooseStepFunction2(backward: true);
+moveNearerToZero2(5)
