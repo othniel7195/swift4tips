@@ -142,6 +142,30 @@ customersInLine.count
 customersInLine.remove(at: 0)
 customersInLine.count
 let customerProvider = { customersInLine.remove(at: 0) }
+let customerProvider2 = { customersInLine.count }
 customersInLine.count
 customerProvider()
 customersInLine.count
+
+func serve(customer customerProvider: () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: {customersInLine.remove(at: 0)})
+
+// @autoclosure 来接收一个自动闭包
+func serve2(customer customerProvider: @autoclosure () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve2(customer:customersInLine.remove(at: 0))
+
+//如果你想让一个自动闭包可以“逃逸”，则应该同时使用 @autoclosure 和 @escaping 属性
+var comHandlers:[() -> String] =  []
+func testEscapleAndAutoClosure(hanlder: @escaping @autoclosure () -> String){
+    comHandlers.append(hanlder);
+}
+
+customersInLine
+testEscapleAndAutoClosure(hanlder: customersInLine.remove(at: 0))
+comHandlers.first?()
+customersInLine
+
