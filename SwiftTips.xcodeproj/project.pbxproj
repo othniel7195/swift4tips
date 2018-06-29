@@ -13,6 +13,8 @@
 		D55ED4AE20E361450060FA0B /* 枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "枚举.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D55ED4CA20E37FDC0060FA0B /* 类和结构体.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "类和结构体.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D55ED4CB20E394300060FA0B /* 属性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "属性.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D55ED52620E50C400060FA0B /* 方法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "方法.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D55ED52A20E622740060FA0B /* 下标.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "下标.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517220D12C4D009DEE4E /* 基础部分.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基础部分.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517320D12C79009DEE4E /* remark.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = remark.rtf; sourceTree = "<group>"; };
 		D5ABBBB520D3A5B7003DEDBE /* 集合类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -25,6 +27,8 @@
 		D562516B20D1287D009DEE4E = {
 			isa = PBXGroup;
 			children = (
+				D55ED52A20E622740060FA0B /* 下标.playground */,
+				D55ED52620E50C400060FA0B /* 方法.playground */,
 				D55ED4CB20E394300060FA0B /* 属性.playground */,
 				D55ED4CA20E37FDC0060FA0B /* 类和结构体.playground */,
 				D55ED4AE20E361450060FA0B /* 枚举.playground */,
