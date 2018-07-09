@@ -17,6 +17,8 @@
 		D55ED52A20E622740060FA0B /* 下标.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "下标.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D55ED52B20EB544F0060FA0B /* 继承.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "继承.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D55ED52C20EB69EC0060FA0B /* 构造过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "构造过程.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D55ED52D20EF16A70060FA0B /* 析构过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "析构过程.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D55ED52E20EF74F40060FA0B /* 自动引用计数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "自动引用计数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517220D12C4D009DEE4E /* 基础部分.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "基础部分.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D562517320D12C79009DEE4E /* remark.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = remark.rtf; sourceTree = "<group>"; };
 		D5ABBBB520D3A5B7003DEDBE /* 集合类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "集合类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -29,6 +31,8 @@
 		D562516B20D1287D009DEE4E = {
 			isa = PBXGroup;
 			children = (
+				D55ED52E20EF74F40060FA0B /* 自动引用计数.playground */,
+				D55ED52D20EF16A70060FA0B /* 析构过程.playground */,
 				D55ED52C20EB69EC0060FA0B /* 构造过程.playground */,
 				D55ED52B20EB544F0060FA0B /* 继承.playground */,
 				D55ED52A20E622740060FA0B /* 下标.playground */,
